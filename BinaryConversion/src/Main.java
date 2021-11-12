@@ -29,7 +29,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println(intToBinary(3));
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Input number: ");
+        int num = scanner.nextInt();
+        System.out.println(intToBinary(num));
     }
 
 }
